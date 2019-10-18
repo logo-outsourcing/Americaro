@@ -11,7 +11,9 @@
   font-style: normal;
 }
 
-
+body{
+ overflow-x: hidden;
+}
 
 // start media queries
 
@@ -27,7 +29,30 @@
   .new__element {
     width: 25%;
   }
-
+  .purchase__element--center:after {
+    left: 51%;
+  }
+  .purchase__element--center:before {
+    right: 52%;
+  }
+  .purchase__element--one:before {
+    left: 51%;
+  }
+  .purchase__element--fo:after {
+    right: 51%;
+  }
+  .purchase__element--one:after {
+    clip: rect(auto, 128px, 267px, auto);
+  }
+  .purchase__element--two:after {
+    clip: rect(auto, 128px, 267px, auto);
+  }
+  .purchase__element--two:before {
+    clip: rect(auto, 128px, 266px, auto);
+  }
+  .purchase__element--three:before {
+    clip: rect(auto, 128px, 266px, auto);
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -55,11 +80,52 @@
   .header__heading{
    align-items: start;
   }
-  .header__socials{
-    padding: 10px;
-  }
+
   .info__inner{
     margin-bottom: 20px;
+  }
+  .purchase__element {
+    width: 50%;
+  }
+  .purchase__element--one:before {
+    display: none;
+  }
+  .purchase__element--one:after {
+    display: none;
+  }
+  .purchase__element--center:after {
+    display: none;
+  }
+  .purchase__element--center:before {
+    display: none;
+  }
+  .purchase__element--one:before {
+    display: none;
+  }
+  .purchase__element--fo:after {
+    display: none;
+  }
+
+  .purchase__element--two:after {
+    display: none;
+  }
+  .purchase__element--two:before {
+    display: none;
+  }
+  .purchase__element--three:before {
+    display: none;
+  }
+  .purchase__element--fo:before {
+    display: none;
+  }
+  .purchase__element--three:after {
+    display: none;
+  }
+  .purchase__element--one{
+    border: none;
+  }
+  .purchase__element--fo{
+    border: none;
   }
 }
 
@@ -86,6 +152,8 @@
   .advantages__element {
     width: 70%;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
   }
   .footer__list{
     text-align: center;
@@ -102,9 +170,9 @@
   .info__element {
     padding: 20px;
   }
-  .new__more {
-    height: 375px;
-  }
+ .new__slider{
+   min-height: 423px;
+ }
 }
 
 @media screen  and (max-width: 576px) {
@@ -134,13 +202,22 @@
     font-size: 14px;
   }
   .new__slider {
-    min-height: auto;
+    min-height: 610px;
   }
-  .new__more {
-    background: white;
-    opacity: 0.9;
-    height: 100%;
-    align-items: center;
+  .purchase__element {
+    width: 85%;
+    margin: 0 auto;
   }
+  .advantages__name {
+    text-align: center;
+  }
+  .brands__dropdown {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .brands__list {
+    width: 100%;
+    margin: 0 auto;
 
+  }
 }

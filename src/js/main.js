@@ -1,3 +1,4 @@
+
 $('#carousel-example').on('slide.bs.carousel', function (e) {
     /*
         CC 2.0 License Iatek LLC 2018 - Attribution required
@@ -56,4 +57,10 @@ jQuery('img.svg').each(function(){
 
     }, 'xml');
 
+});
+$(".brands__item").on('click',function () {
+    $('.brands__item').removeClass( "brands__item--active" );
+    $('.brands__item .brands__item--link').removeClass( "brands__active" );
+    $(this).addClass( "brands__item--active" );
+    $(this).children().addClass( "brands__active" );
 });
