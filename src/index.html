@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Americaro</title>
+    <link rel="stylesheet" href="style/css/reset.css">
+    <link href="style/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__background">
+        <div class="container ">
+            <div class="row header__heading">
+                <nav class="navbar navbar-expand-lg navbar-light bg-ligh col-7 col-lg-6   ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header__collapse" id="navbarSupportedContent">
+                        <ul class="header__menu  navbar-nav mr-auto">
+                            <li class="header__item nav-item ">
+                                <a href="#" class="header__link nav-link">О компании</a>
+                            </li>
+                            <li class="header__item nav-item">
+                                <a href="#" class="header__link nav-link">Доставка и оплата</a>
+                            </li>
+                            <li class="header__item nav-item">
+                                <a href="#" class="header__link nav-link">Статьи</a>
+                            </li>
+                            <li class="header__item nav-item">
+                                <a href="#" class="header__link nav-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="row header__socials">
+                    <a href="#" class="header__authorization"><img src="img/home/authorization.svg" alt="authorization"
+                                                                   class="header__authorization--image"><span
+                            class="header__authorization--entrance">Вход</span>
+                        <span class="header__authorization--registry">/ Регистрация</span>
+                    </a>
+                    <div class="header__social content-row">
+                        <a href="#"><img src="img/home/facebook_logo.svg" alt="facebook" class="header__icon"></a>
+                        <a href="#"><img src="img/home/instagram_logo.svg" alt="instagram" class="header__icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row header__content">
+            <a href="#" class=" col-4 col-lg-3"><img src="img/home/logo.png" alt="logo" class="image"></a>
+            <form class="form-inline my-2 my-lg-0 col-6 col-md-3  col-lg-6 ">
+                <input class="form-control mr-sm-2 header__input col-12 " type="search" placeholder="Поиск"
+                       aria-label="Search">
+                <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            </form>
+            <a href="tel:0441234567" class="header__phone col-2 col-md-5  col-lg-3">
+                <img src="img/home/phone.png" alt="phone" class="header__phone--image">
+                <span class="header__phone--text">(044) 123-45-67</span>
+            </a>
+        </div>
+    </div>
+</header>
+<section class="auction">
+    <div class="container">
+        <div class="col-12 col-xs-8 col-md-8 col-lg-8 offset-2 auction__wrap">
+            <div class="row auction__heading">
+                <h2 class="title auction__title col-12 col-lg-6">Выберите аукцион</h2>
+                <div class="row">
+                    <div class="form-check auction__form">
+                        <input class="form-check-input auction__check" type="checkbox" value="" id="all" checked>
+                        <label class="form-check-label auction__label" for="all">
+                            Все
+                        </label>
+                    </div>
+                    <div class="form-check auction__form">
+                        <input class="form-check-input auction__check" type="checkbox" value="" id="Copart">
+                        <label class="form-check-label auction__label" for="Copart">
+                            Copart
+                        </label>
+                    </div>
+                    <div class="form-check auction__form">
+                        <input class="form-check-input auction__check" type="checkbox" value="" id="iaai">
+                        <label class="form-check-label auction__label" for="iaai">
+                            iaai
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-xs-8 col-md-8 col-lg-8 offset-2 auction__wrap">
+            <div class="row ">
+                <div class="dropdown col-12 col-lg-6 auction__list">
+                    <button class="btn  dropdown-toggle auction__button col-12" type="button" id="auction-mark"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ВАЗ
+                    </button>
+                    <div class="auction__menu dropdown-menu " aria-labelledby="auction-mark">
+                        <a class="dropdown-item auction__link" href="#">ВАЗ</a>
+                        <a class="dropdown-item auction__link" href="#">Volkswagen</a>
+                        <a class="dropdown-item auction__link" href="#">Mercedes-Benz</a>
+                        <a class="dropdown-item auction__link" href="#">Opel</a>
+                        <a class="dropdown-item auction__link" href="#">Renault</a>
+                        <a class="dropdown-item auction__link" href="#">BMW</a>
+                        <a class="dropdown-item auction__link" href="#">Ford</a>
+                        <a class="dropdown-item auction__link" href="#">Audi</a>
+                        <a class="dropdown-item auction__link" href="#">Skoda</a>
+                        <a class="dropdown-item auction__link" href="#">Nissan</a>
+                        <a class="dropdown-item auction__link" href="#">Honda</a>
+                        <a class="dropdown-item auction__link" href="#">Hyundai</a>
+                        <a class="dropdown-item auction__link" href="#">Mitsubishi</a>
+                        <a class="dropdown-item auction__link" href="#">Chevrolet</a>
+                        <a class="dropdown-item auction__link" href="#">Peugeot</a>
+                    </div>
+                </div>
+                <div class="dropdown col-12 col-lg-6 auction__list">
+                    <button class="btn  dropdown-toggle auction__button col-12" type="button" id="auction-model"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Пассат Б7
+                    </button>
+                    <div class="dropdown-menu auction__menu" aria-labelledby="auction-model">
+                        <a class="dropdown-item auction__link" href="#">Пассат Б7</a>
+                        <a class="dropdown-item auction__link" href="#">Пассат Б5</a>
+                        <a class="dropdown-item auction__link" href="#">Пассат Б6</a>
+                        <a class="dropdown-item auction__link" href="#">Кадди пассажирский</a>
+                        <a class="dropdown-item auction__link" href="#">Джетта</a>
+                        <a class="dropdown-item auction__link" href="#">Гольф 4</a>
+                        <a class="dropdown-item auction__link" href="#">Туарег T5 (Транспортер) пассажирский</a>
+                        <a class="dropdown-item auction__link" href="#"> Туран Т4 (Транспортер) пассажирский</a>
+                        <a class="dropdown-item auction__link" href="#">Тигуан</a>
+                        <a class="dropdown-item auction__link" href="#">Гольф 6</a>
+                        <a class="dropdown-item auction__link" href="#">Пассат Б8</a>
+                        <a class="dropdown-item auction__link" href="#"> Пассат Б3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-xs-8 col-md-8 col-lg-8 offset-2 auction__wrap auction__inner">
+            <div class="row ">
+                <div class="dropdown col-12 col-lg-6 auction__list">
+                    <button class="btn  dropdown-toggle auction__button col-12" type="button" id="auction-data"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        2010
+                    </button>
+                    <div class="dropdown-menu auction__menu" aria-labelledby="auction-data">
+                        <a class="dropdown-item auction__link" href="#">2019</a>
+                        <a class="dropdown-item auction__link" href="#">2018</a>
+                        <a class="dropdown-item auction__link" href="#">2017</a>
+                        <a class="dropdown-item auction__link" href="#">2016</a>
+                        <a class="dropdown-item auction__link" href="#">2015</a>
+                        <a class="dropdown-item auction__link" href="#">2014</a>
+                        <a class="dropdown-item auction__link" href="#">2013</a>
+                        <a class="dropdown-item auction__link" href="#">2012</a>
+                        <a class="dropdown-item auction__link" href="#">2011</a>
+                        <a class="dropdown-item auction__link" href="#">2010</a>
+                        <a class="dropdown-item auction__link" href="#">2009</a>
+                        <a class="dropdown-item auction__link" href="#">2008</a>
+                        <a class="dropdown-item auction__link" href="#">2007</a>
+                        <a class="dropdown-item auction__link" href="#">2006</a>
+                        <a class="dropdown-item auction__link" href="#">2005</a>
+
+                    </div>
+                </div>
+                <div class="dropdown col-12 col-lg-6 auction__list">
+                    <button class="btn  dropdown-toggle auction__button col-12" type="button" id="auction-year"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        2010
+                    </button>
+                    <div class="dropdown-menu auction__menu" aria-labelledby="auction-year">
+                        <a class="dropdown-item auction__link" href="#">2019</a>
+                        <a class="dropdown-item auction__link" href="#">2018</a>
+                        <a class="dropdown-item auction__link" href="#">2017</a>
+                        <a class="dropdown-item auction__link" href="#">2016</a>
+                        <a class="dropdown-item auction__link" href="#">2015</a>
+                        <a class="dropdown-item auction__link" href="#">2014</a>
+                        <a class="dropdown-item auction__link" href="#">2013</a>
+                        <a class="dropdown-item auction__link" href="#">2012</a>
+                        <a class="dropdown-item auction__link" href="#">2011</a>
+                        <a class="dropdown-item auction__link" href="#">2010</a>
+                        <a class="dropdown-item auction__link" href="#">2009</a>
+                        <a class="dropdown-item auction__link" href="#">2008</a>
+                        <a class="dropdown-item auction__link" href="#">2007</a>
+                        <a class="dropdown-item auction__link" href="#">2006</a>
+                        <a class="dropdown-item auction__link" href="#">2005</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row  justify-content-center">
+            <button class="btn button col-5 col-md-4 col-lg-2">ПОДОБРАТЬ</button>
+        </div>
+    </div>
+</section>
+<section class="purchase">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="title purchase__title">Процесс покупки</h2>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-3 purchase__item purchase__item--white">
+                <div class="purchase__picture purchase__picture--yellow">
+                    <img src="img/home/registration.svg" alt="registration">
+                </div>
+                <div class="purchase__info">
+                    <span class="purchase__name">01. Регистрация</span>
+                    <span class="purchase__text">Регистрируйтесь и приступайте к поиску</span>
+                </div>
+            </div>
+            <div class="col-lg-3 purchase__item purchase__item--yellow">
+                <div class="purchase__picture purchase__picture--white purchase__picture--inner">
+                    <img src="img/home/rate.svg" alt="rate">
+                </div>
+                <div class="purchase__info">
+                    <span class="purchase__name">02. Ставка</span>
+                    <span class="purchase__text">Ищите понравившийся автомобиль и укажите максимальную ставку</span>
+                </div>
+            </div>
+            <div class="col-lg-3 purchase__item purchase__item--white">
+                <div class="purchase__picture purchase__picture--yellow">
+                    <img src="img/home/purchase.svg" alt="purchase">
+                </div>
+                <div class="purchase__info">
+                    <span class="purchase__name">03. Покупка</span>
+                    <span class="purchase__text">Поздравляем, вы выиграли! Просто оплатите счет  Cars From West</span>
+                </div>
+            </div>
+            <div class="col-lg-3 purchase__item purchase__item--yellow">
+                <div class="purchase__picture purchase__picture--white">
+                    <img src="img/home/delivery.svg" alt="delivery">
+                </div>
+                <div class="purchase__info">
+                    <span class="purchase__name">04. Доставка</span>
+                    <span class="purchase__text">Мы организуем доставку вашего авто</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="new">
+    <div class="container">
+        <div class="row justify-content-between new__heading">
+            <h2 class="title col-6 col-md-3 col-lg-2">Новинки</h2>
+            <a href="#" class="all-link col-6 col-md-3 col-lg-3">Смотреть все <span class="all-link__arrow">&#8594;</span></a>
+        </div>
+        <div id="carousel-example" class="carousel slide new__slider" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto new__slider" role="listbox">
+                <div class="carousel-item new__element active">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev new__prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon new__prev--icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next new__next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon new__next--icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+<section class="brands">
+    <div class="container">
+        <div class="row justify-content-between new__heading">
+            <h2 class="title col-6 col-md-6 col-lg-5">Подбор по маркам авто</h2>
+            <a href="#" class="all-link col-6 col-md-3 col-lg-3">Смотреть все <span class="all-link__arrow">&#8594;</span></a>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="brands__list row flex-wrap">
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/passengerCar.svg" alt="Passenger Car" class="brands__icon svg">
+                            Легковые б/у
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/new-car.svg" alt="New Car" class="brands__icon svg">
+                            Новые авто
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/moto.svg" alt="Moto" class="brands__icon svg">
+                            Мото
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/trucks.svg" alt="Trucks" class="brands__icon svg">
+                            Грузовики
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/trailers.svg" alt="Trailers" class="brands__icon  svg">
+                            Прицепы
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/special-machinery.svg" alt="Special machinery" class="brands__icon  svg">
+                            Спецтехника
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/agricultural-machinery.svg" alt="Agricultural machinery"
+                                 class="brands__icon svg">
+                            Сельхозтехника
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/bus.svg" alt="Bus" class="brands__icon ">
+                            Автобусы
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="brands__item">
+                        <a href="#" class="brands__item--link">
+                            <img src="img/home/water-car.svg" alt="Water Car" class="brands__icon svg">
+                            Водный
+                        </a>
+
+                        <ul class="brands__dropdown flex-wrap">
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/opel.svg" alt="Opel" class="brands__logo">
+                                    Opel
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/volkswagen.png" alt="Volkswagen" class="brands__logo">
+                                    Volkswagen
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/renault.png" alt="Renault" class="brands__logo">
+                                    Renault
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/Brands/mercedes_benz.png" alt="Mercedes-Benz"
+                                         class="brands__logo">
+                                    Mercedes-Benz
+                                </a>
+                            </li>
+                            <li class="brands__element">
+                                <a href="#" class="brands__element--link">
+                                    <img src="img/home/all-brands.svg" alt="All Brands" class="brands__logo">Все марки
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="info">
+    <div class="container">
+        <div class="row justify-content-between new__heading">
+            <h2 class="title col-6 col-md-6 col-lg-5">Полезная информация</h2>
+            <a href="#" class="all-link col-6 col-md-3 col-lg-3">Смотреть все <span class="all-link__arrow">&#8594;</span></a>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs row  info__nav">
+                    <li class="info__item col-3"><a data-toggle="tab" href="#article1" class="active info__tabs">Статья
+                        1</a></li>
+                    <li class="info__item col-3"><a data-toggle="tab" href="#article2" class="info__tabs">Статья 2</a>
+                    </li>
+                    <li class="info__item col-3"><a data-toggle="tab" href="#article3" class="info__tabs">Статья 3</a>
+                    </li>
+                    <li class="info__item col-3"><a data-toggle="tab" href="#article4" class="info__tabs">Статья 4</a>
+                    </li>
+                </ul>
+                <div class="tab-content clearfix">
+                    <div class="tab-pane active" id="article1">
+                        <div class="row info__element">
+                            <img src="img/home/car.jpg" alt="Car" class="col-12 col-lg-5 info__inner">
+                            <div class="col-12 col-lg-7">
+                                <span class="info__data"><img src="img/home/calendar.svg" alt="Calendar"
+                                                              class="info__calendar">22.09.2019</span>
+                                <span class="info__name">Автомобильная индустрия переживает не лучшие времена: несмотря на большие планы</span>
+                                <p class="info__text">продажи легковушек на отдельных (в том числе и традиционно
+                                    «всеядных») рынках стали проседать. «Качает» даже перспективный сегмент
+                                    электромобилей: после июньского отказа китайского правительства субсидировать
+                                    покупки такого транспорта за счет государства, количество сделок там уменьшилось
+                                    наполовину: до 70 тысяч машин по результатам июля 2019 (в июне-2019 там продали 142
+                                    тысячи «электричек»).</p>
+                                <a href="#" class="info__link">Читать далее<img src="img/home/all-brands.svg"
+                                                                                alt="All Brands"
+                                                                                class="info__arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="article2">
+                        <div class="row info__element">
+                            <div class="col-12 col-lg-7 info__inner">
+                                <span class="info__data"><img src="img/home/calendar.svg" alt="Calendar"
+                                                              class="info__calendar">22.09.2019</span>
+                                <span class="info__name">Автомобильная индустрия переживает не лучшие времена: несмотря на большие планы</span>
+                                <p class="info__text">продажи легковушек на отдельных (в том числе и традиционно
+                                    «всеядных») рынках стали проседать. «Качает» даже перспективный сегмент
+                                    электромобилей: после июньского отказа китайского правительства субсидировать
+                                    покупки такого транспорта за счет государства, количество сделок там уменьшилось
+                                    наполовину: до 70 тысяч машин по результатам июля 2019 (в июне-2019 там продали 142
+                                    тысячи «электричек»).</p>
+                                <a href="#" class="info__link">Читать далее<img src="img/home/all-brands.svg"
+                                                                                alt="All Brands"
+                                                                                class="info__arrow"></a>
+                            </div>
+                            <img src="img/home/car.jpg" alt="Car" class="col-12 col-lg-5">
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="article3">
+                        <div class="row info__element">
+                            <img src="img/home/car.jpg" alt="Car" class="col-12 col-lg-5 info__inner">
+                            <div class="col-12 col-lg-7">
+                                <span class="info__data"><img src="img/home/calendar.svg" alt="Calendar"
+                                                              class="info__calendar">22.09.2019</span>
+                                <span class="info__name">Автомобильная индустрия переживает не лучшие времена: несмотря на большие планы</span>
+                                <p class="info__text">продажи легковушек на отдельных (в том числе и традиционно
+                                    «всеядных») рынках стали проседать. «Качает» даже перспективный сегмент
+                                    электромобилей: после июньского отказа китайского правительства субсидировать
+                                    покупки такого транспорта за счет государства, количество сделок там уменьшилось
+                                    наполовину: до 70 тысяч машин по результатам июля 2019 (в июне-2019 там продали 142
+                                    тысячи «электричек»).</p>
+                                <a href="#" class="info__link">Читать далее<img src="img/home/all-brands.svg"
+                                                                                alt="All Brands"
+                                                                                class="info__arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="article4">
+                        <div class="row info__element">
+                            <div class=" col-12 col-lg-7 info__inner">
+                                <span class="info__data"><img src="img/home/calendar.svg" alt="Calendar"
+                                                              class="info__calendar">22.09.2019</span>
+                                <span class="info__name">Автомобильная индустрия переживает не лучшие времена: несмотря на большие планы</span>
+                                <p class="info__text">продажи легковушек на отдельных (в том числе и традиционно
+                                    «всеядных») рынках стали проседать. «Качает» даже перспективный сегмент
+                                    электромобилей: после июньского отказа китайского правительства субсидировать
+                                    покупки такого транспорта за счет государства, количество сделок там уменьшилось
+                                    наполовину: до 70 тысяч машин по результатам июля 2019 (в июне-2019 там продали 142
+                                    тысячи «электричек»).</p>
+                                <a href="#" class="info__link">Читать далее<img src="img/home/all-brands.svg"
+                                                                                alt="All Brands"
+                                                                                class="info__arrow"></a>
+                            </div>
+                            <img src="img/home/car.jpg" alt="Car" class="col-12 col-lg-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="seo">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="title seo__title">SEO</h2>
+        </div>
+        <div class="row">
+            <p class="seo__text col-12">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький
+                ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая
+                страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+        </div>
+        <div class="row justify-content-center">
+            <a href="#" class="seo__link">Читать далее</a>
+        </div>
+    </div>
+</section>
+<section class="advantages">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="advantages__element row">
+                <img src="img/home/delivery-car.svg" alt="Delivery" class="advantages__image">
+                <span class="advantages__name">Беcплатная доставка</span>
+            </div>
+            <div class="advantages__element row">
+                <img src="img/home/choice-car.svg" alt="Choice Car" class="advantages__image">
+                <span class="advantages__name">Большой выбор авто</span>
+            </div>
+            <div class="advantages__element row">
+                <img src="img/home/guarantee.svg" alt="Guarantee" class="advantages__image">
+                <span class="advantages__name">Гарантия качества</span>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center footer__logo">
+            <a href="#"><img src="img/home/logo.png" alt="Logo"></a>
+        </div>
+
+        <div class="row align-items-end justify-content-between footer__inner">
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Комплекты</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#"  class="footer__link">Новые товары</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Инструкция</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Статьи</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">О компании</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#"  class="footer__link"> Видео</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Доставка и оплата</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"> Бонусная программа</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-8 col-lg-5">
+                <span class="footer__name">Отследить свое авто</span>
+                <span class="footer__text">Введите свой номер заказа и отследите где ваш автомобиль</span>
+                <div class="input-group">
+                    <input type="number" class="form-control footer__input"   aria-describedby="button-addon4">
+                    <div  id="button-addon4">
+                        <button class="btn  button footer__button" type="button">Отследить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 footer__guarantee">
+                <span class="footer__text">Гарантия безопасности</span>
+                <div class="row footer__card">
+                    <a href="#" class="footer__visa"><img src="img/home/visa.jpg" alt="visa"></a>
+                    <a href="#"><img src="img/home/mastercard.jpg" alt="mastercard"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line col-12"></div>
+        <div class="row justify-content-between col-12">
+            <a href="#" class="footer__address">© www.americaro.com.ua, 2017-2019</a>
+            <div class="row">
+                <a href="#"><img src="img/home/facebook_logo.svg" alt="Facebook" class="footer__facebook svg"></a>
+                <a href="#"><img src="img/home/instagram_logo.svg" alt="Instagram" class="footer__instagram svg"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

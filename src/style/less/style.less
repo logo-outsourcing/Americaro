@@ -1,0 +1,146 @@
+@import "utils/mixin";
+@import "home";
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../../fonts/MyriadPro-Regular.eot');
+  src: url('../../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/MyriadPro-Regular.woff') format('woff'),
+  url('../../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// start media queries
+
+@media screen and (max-width: 1200px) {
+  .header__phone {
+    font-size: 24.6px;
+  }
+
+  .auction__link {
+    font-size: 13px;
+  }
+
+  .new__element {
+    width: 25%;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .auction__heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .auction__title {
+    margin-bottom: 30px;
+  }
+  .new__element {
+    width: 33%;
+  }
+  .advantages__element {
+    width: 35%;
+  }
+  .footer__name {
+    margin-bottom: 15px;
+  }
+  .header__heading{
+   align-items: start;
+  }
+  .header__socials{
+    padding: 10px;
+  }
+  .info__inner{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__authorization--entrance,
+  .header__authorization--registry {
+    display: none;
+  }
+
+  .header__authorization {
+    margin-right: 11px;
+  }
+
+  .header__phone--text {
+    display: none;
+  }
+
+  .auction__wrap {
+    margin: 0;
+  }
+  .new__element {
+    width: 50%;
+  }
+  .advantages__element {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .footer__list{
+    text-align: center;
+  }
+  .footer__guarantee {
+    text-align: center;
+  }
+  .footer__card{
+    justify-content: center;
+  }
+  .input-group{
+    margin-bottom: 10px;
+  }
+  .info__element {
+    padding: 20px;
+  }
+  .new__more {
+    height: 375px;
+  }
+}
+
+@media screen  and (max-width: 576px) {
+
+  .auction__link {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+  .new__element {
+    width: 100%;
+  }
+  .footer__button {
+    padding: 4px 10px;
+  }
+
+  .all-link {
+    font-size: 15px;
+
+  }
+  .all-link__arrow {
+    font-size: 20px;
+  }
+  .info__tabs {
+    font-size: 14px;
+  }
+  .new__slider {
+    min-height: auto;
+  }
+  .new__more {
+    background: white;
+    opacity: 0.9;
+    height: 100%;
+    align-items: center;
+  }
+
+}
