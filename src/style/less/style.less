@@ -1,6 +1,7 @@
 @import "utils/mixin";
 @import "home";
 @import "profile";
+@import "catalog";
 
 @font-face {
   font-family: 'Myriad Pro Regular';
@@ -66,6 +67,10 @@ body {
   .profile__element {
 
     width: 100%;
+  }
+
+  .catalog__box--item {
+    width: 155px;
   }
 }
 
@@ -171,6 +176,14 @@ body {
 
     width: 30%;
   }
+
+  .catalog__page {
+    margin-right: 13%;
+  }
+
+  .catalog__box--item {
+    margin: 0 auto 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -240,6 +253,10 @@ body {
     text-align: center;
     width: 100%;
   }
+
+  .catalog__box {
+    padding: 0 15px;
+  }
 }
 
 @media screen  and (max-width: 576px) {
@@ -299,5 +316,17 @@ body {
 
   .profile__button {
     width: 95%;
+  }
+
+  .catalog__link--visible {
+    display: none;
+  }
+
+  .pagination {
+    justify-content: space-around;
+  }
+
+  .catalog__page {
+    margin-right: 0;
   }
 }
