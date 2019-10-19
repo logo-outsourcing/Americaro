@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Americaro - profile</title>
+    <link rel="stylesheet" href="style/css/reset.css">
+    <link href="style/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+<body>
+<section class="profile">
+    <div class="container">
+        <div class="row col-11 m-auto align-items-center justify-content-between">
+            <div class="form-check  profile__form">
+                <input class="form-check-input auction__check" type="checkbox" value="" id="all" checked>
+                <label class="form-check-label auction__label profile__label" for="all">
+                  Выбрать все
+                </label>
+            </div>
+            <div class="dropdown  profile__mark">
+                <button class="btn  dropdown-toggle  profile__mark--button" type="button" id="put-mark"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="img/profile/mark.svg" alt="mark" class="profile__innerIcon profile__mark--icon svg"> Применить метку
+                </button>
+                <div class="dropdown-menu" aria-labelledby="put-mark">
+                    <a class="dropdown-item " href="#">Все</a>
+                    <a class="dropdown-item " href="#">Первый</a>
+                    <a class="dropdown-item " href="#">Последний</a>
+                </div>
+            </div>
+            <a href="#" class="profile__remove  "><img src="img/profile/remove.svg" alt="remove" class="profile__innerIcon profile__remove--icon svg">Удалить выбранное</a>
+        </div>
+        <div class="row">
+            <div class="col-11 m-auto">
+                <div class="profile__item row">
+                    <div class="col-lg-5 row justify-content-between profile__wrapper">
+                        <div class="form-check  col-1">
+                            <input class="form-check-input auction__check" type="checkbox" value="" id="element1">
+                            <label class="form-check-label auction__label profile__label" for="element1"></label>
+                        </div>
+                        <div class="col-10">
+                            <img src="img/profile/car.jpg" alt="car" class="profile__image image">
+                            <a href="#" class="profile__picture"><img src="img/profile/picture.svg"
+                                                                      alt="Picture quantity"
+                                                                      class="profile__picture--image svg profile__innerIcon">27 фото</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 class="profile__title">Volkswagen Passat B8 TDI 4MOTION MAXI-FUL 2015</h2>
+                        <div class="row align-items-center p-3">
+                            <span class="profile__priceDolar">25 700 $</span>
+                            <span class="profile__circle">&bull;</span>
+                            <span class="profile__priceUan">655 093 грн</span>
+                        </div>
+                        <ul class="profile__list row flex-wrap justify-content-between p-3">
+                            <li class="profile__element">
+                                <img src="img/profile/mileage.svg" alt="Mileage" class=" profile__icon svg">
+                                170 тыс. км
+                            </li>
+                            <li  class="profile__element">
+                                <img src="img/profile/city.svg" alt="City" class="profile__icon svg">
+                                Хмельницкий
+                            </li>
+                            <li  class="profile__element">
+                                <img src="img/profile/fuel.svg" alt="Fuel" class="profile__icon svg">
+                                Дизель, 2 л
+                            </li>
+                            <li  class="profile__element">
+                                <img src="img/profile/transmission.svg" alt="Transmission" class="profile__icon svg">
+                                Автомат
+                            </li>
+                        </ul>
+                        <div class="row justify-content-between align-items-center p-3">
+                            <span class="profile__data"><img src="img/profile/time.svg" alt="time"
+                                                             class="profile__data--image svg profile__innerIcon">03.10.2019</span>
+                            <a href="#" class="profile__delete"><img src="img/profile/remove.svg"
+                                                                     class="svg profile__delete--image profile__innerIcon" alt="delete">Удалить
+                                из блокнота</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 profile__info">
+                        <span class="profile__name">Сергей</span>
+                        <span class="profile__text">Покупатель</span>
+                        <div class="row justify-content-between align-items-center p-3 profile__wrap">
+                            <span class="profile__number">(063) XXX-XX-XX</span>
+                            <a href="#" class="profile__text profile__show">показать</a>
+                        </div>
+                        <button class="button profile__button"><img src="img/profile/chat.svg" alt="chat" class="svg profile__innerIcon profile__button--icon">Написать в чат</button>
+                        <span class="profile__text"><img src="img/profile/lightning.svg" alt="Loghtning" class=" profile__innerIcon">обычно отвечает <span class="profile__text--bold">быстро</span></span>
+                    </div>
+                </div>
+                <div class="profile__item row">
+                    <div class="col-lg-5 row justify-content-between profile__wrapper">
+                        <div class="form-check  col-1">
+                            <input class="form-check-input auction__check" type="checkbox" value="" id="element2">
+                            <label class="form-check-label auction__label profile__label" for="element2"></label>
+                        </div>
+                        <div class="col-10">
+                            <img src="img/profile/car.jpg" alt="car" class="profile__image image">
+                            <a href="#" class="profile__picture"><img src="img/profile/picture.svg"
+                                                                      alt="Picture quantity"
+                                                                      class="profile__picture--image svg profile__innerIcon">14 фото</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2 class="profile__title">Volkswagen Passat B8 TDI 4MOTION MAXI-FUL 2015</h2>
+                        <div class="row align-items-center p-3">
+                            <span class="profile__priceDolar">25 700 $</span>
+                            <span class="profile__circle">&bull;</span>
+                            <span class="profile__priceUan">655 093 грн</span>
+                        </div>
+                        <ul class="profile__list row flex-wrap justify-content-between p-3">
+                            <li class="profile__element">
+                                <img src="img/profile/mileage.svg" alt="Mileage" class=" profile__icon svg">
+                                170 тыс. км
+                            </li>
+                            <li  class="profile__element">
+                                <img src="img/profile/city.svg" alt="City" class="profile__icon svg">
+                                Хмельницкий
+                            </li>
+                            <li  class="profile__element">
+                                <img src="img/profile/fuel.svg" alt="Fuel" class="profile__icon svg">
+                                Дизель, 2 л
+                            </li>
+                            <li  class="profile__element">
+                                <img src="img/profile/transmission.svg" alt="Transmission" class="profile__icon svg">
+                                Автомат
+                            </li>
+                        </ul>
+                        <div class="row justify-content-between align-items-center p-3">
+                            <span class="profile__data"><img src="img/profile/time.svg" alt="time"
+                                                             class="profile__data--image svg profile__innerIcon">03.10.2019</span>
+                            <a href="#" class="profile__delete"><img src="img/profile/remove.svg"
+                                                                     class="svg profile__delete--image profile__innerIcon" alt="delete">Удалить
+                                из блокнота</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 profile__info">
+                        <span class="profile__name">Сергей</span>
+                        <span class="profile__text">Покупатель</span>
+                        <div class="row justify-content-between align-items-center p-3 profile__wrap">
+                            <span class="profile__number">(063) XXX-XX-XX</span>
+                            <a href="#" class="profile__text profile__show">показать</a>
+                        </div>
+                        <button class="button profile__button"><img src="img/profile/chat.svg" alt="chat" class="svg profile__innerIcon profile__button--icon">Написать в чат</button>
+                        <span class="profile__text"><img src="img/profile/lightning.svg" alt="Loghtning" class=" profile__innerIcon">обычно отвечает <span class="profile__text--bold">быстро</span></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

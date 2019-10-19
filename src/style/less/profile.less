@@ -1,0 +1,215 @@
+.profile {
+  background: #f4f4f4;
+  padding: 40px 0;
+  &__innerIcon {
+    margin-right: 5px;
+  }
+  &__label {
+    font-size: 17.5px;
+    line-height: 37px;
+  }
+  &__remove {
+    font-family: 'Myriad Pro Regular';
+    font-size: 17.1px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #000000;
+    text-align: right;
+    &:hover {
+      color: #f0b500;
+      text-decoration: none;
+    }
+  }
+  &__mark {
+    font-family: 'Myriad Pro Regular';
+    font-size: 17.5px;
+    line-height: 37px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    width: 55%;
+
+    &--button {
+      padding: 0;
+      border: none;
+      text-decoration: underline;
+      &:hover {
+        color: #f0b500;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__item {
+    background: #ffffff;
+    border: 1.0px solid #e1e1e1;
+    padding: 30px 0;
+    margin-bottom: 10px;
+  }
+  &__picture {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #4e4e4e;
+    display: block;
+
+    &--image path {
+      fill: #7e7e7e;
+
+    }
+    &:hover {
+      color: #f0b500;
+
+    }
+  }
+  &__image {
+    margin-bottom: 25px;
+  }
+  &__title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+  }
+  &__priceDolar {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+
+    color: #000000;
+  }
+  &__circle {
+    color: #b7b7b7;
+    margin: 0 10px;
+  }
+  &__priceUan {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #4e4e4e;
+  }
+  &__data {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #4e4e4e;
+    &--image path {
+      fill: #7e7e7e;
+    }
+
+  }
+  &__delete {
+    border: 1.0px solid #e1e1e1;
+    border-radius: 3.0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #4e4e4e;
+    padding: 5px;
+    &:hover {
+      border-color: #ffcf01;
+      text-decoration: none;
+      color: #4e4e4e;
+    }
+    &--image path {
+      fill: #7e7e7e;
+    }
+
+  }
+  &__name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+  }
+  &__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #7e7e7e;
+    display: block;
+    &--bold {
+      font-weight: bold;
+    }
+  }
+  &__show {
+    text-decoration: underline;
+  }
+  &__number {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #000000;
+  }
+  &__button {
+    padding: 8px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    &:hover {
+      color: #000000;
+    }
+
+    &--icon path {
+      fill: #ffffff;
+    }
+  }
+  &__list {
+    padding: 0 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4e4e4e;
+    margin: 0;
+  }
+  &__icon {
+    max-width: 20px;
+    max-height: 28px;
+
+    & path {
+      fill: #f0b500;
+    }
+  }
+  &__element {
+    margin-bottom: 5px;
+    width: 50%;
+  }
+  &__wrap {
+    margin-bottom: 20px;
+  }
+  &__info {
+
+    border-left: 1.0px solid #e1e1e1;
+
+  }
+  &__form {
+    padding: 0;
+  }
+
+}
+
+.profile__delete:hover .profile__delete--image path {
+  fill: #f0b500;
+}
+
+.profile__picture:hover .profile__picture--image path {
+  fill: #f0b500;
+}
+
+.profile__remove:hover .profile__remove--icon path {
+  fill: #f0b500;
+}
+
+.profile__mark--button:hover .profile__mark--icon path {
+  fill: #f0b500;
+}
+
+.profile__button:hover .profile__button--icon path {
+  fill: #000000;
+}
