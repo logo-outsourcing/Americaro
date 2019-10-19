@@ -502,12 +502,19 @@
 </section>
 <section class="video">
     <div class="container-fluid">
-        <div class="row">
-         <video class="m-auto"  height="200" controls>
-             <source src="media/solargarden.mp4" type="video/mp4">
-         </video>
+        <div class="video__image row align-items-center justify-content-center">
+            <a href="#" class=" video__play">
+                <img src="img/home/play.png" alt="play">
+            </a>
         </div>
+        <div class="video__modal video__modal--hide">
+            <div class="video__element">
+                <button class="video__close">x</button>
+                <div class="video__item">
 
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="brands">
@@ -519,6 +526,17 @@
         </div>
         <div class="row">
             <div class="col-12">
+                <select class="select-tabs form-control brands__select">
+                    <option value="0">Легковые б/у</option>
+                    <option value="1"> Новые авто</option>
+                    <option value="2"> Мото</option>
+                    <option value="3">Грузовики</option>
+                    <option value="4"> Прицепы</option>
+                    <option value="5">Спецтехника</option>
+                    <option value="6">Сельхозтехника</option>
+                    <option value="7">Автобусы</option>
+                    <option value="8">Водный</option>
+                </select>
                 <ul class="nav nav-tabs  brands__list row flex-wrap justify-content-around">
                     <li class="brands__item brands__item--active">
                         <a data-toggle="tab" href="#PassengerCar" class="brands__item--link brands__active">

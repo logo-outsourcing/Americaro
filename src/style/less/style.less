@@ -2,6 +2,7 @@
 @import "home";
 @import "profile";
 @import "catalog";
+@import "product";
 
 @font-face {
   font-family: 'Myriad Pro Regular';
@@ -71,6 +72,11 @@ body {
 
   .catalog__box--item {
     width: 155px;
+  }
+
+  .brands__item {
+    font-size: 14px;
+    width: 106px;
   }
 }
 
@@ -184,6 +190,14 @@ body {
   .catalog__box--item {
     margin: 0 auto 10px;
   }
+
+  .brands__select {
+    display: block;
+  }
+
+  .brands__list {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -291,7 +305,7 @@ body {
   }
 
   .new__slider {
-    min-height: 610px;
+    min-height: 460px;
   }
 
   .purchase__element {
@@ -328,5 +342,14 @@ body {
 
   .catalog__page {
     margin-right: 0;
+  }
+
+  .product__heading {
+    padding: 0 10px;
+
+  }
+
+  .product__wrapper {
+    padding: 0 10px;
   }
 }
