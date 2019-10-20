@@ -14,9 +14,9 @@
   font-style: normal;
 }
 
-body {
-  overflow-x: hidden;
-}
+//body {
+//  overflow-x: hidden;
+//}
 
 // start media queries
 
@@ -199,8 +199,17 @@ body {
   .brands__list {
     display: none;
   }
-  .header__logo{
+
+  .header__logo {
     margin: 0 auto 20px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .header__phone--text {
+    display: none;
   }
 
 }
@@ -211,16 +220,16 @@ body {
     display: none;
   }
 
-  .header__authorization {
-    margin-right: 11px;
+  .header__inner {
+    justify-content: flex-end;
   }
 
-  .header__phone--text {
-    display: none;
-  }
+  //.header__phone--text {
+  //  display: none;
+  //}
 
   .auction__wrap {
-    margin: 0;
+    margin: 0 auto;
   }
 
   .new__element {
@@ -254,8 +263,6 @@ body {
     padding: 20px;
   }
 
-
-
   .profile__remove {
     text-align: center;
     width: 100%;
@@ -277,6 +284,9 @@ body {
 }
 
 @media screen  and (max-width: 576px) {
+  .header__inner {
+    justify-content: space-around;
+  }
 
   .auction__link {
     font-size: 12px;
@@ -306,8 +316,6 @@ body {
   .info__tabs {
     font-size: 14px;
   }
-
-
 
   .purchase__element {
     width: 85%;
@@ -351,13 +359,49 @@ body {
   }
 
   .product__wrapper {
-    padding: 0 10px;
+    padding: 0 15px;
   }
+  .product__table--heading {
+    font-size: 16px;
+    text-align: center;
+  }
+
   .product__border tbody tr:after {
     display: none;
   }
-  .product__border tbody tr{
+
+  .product__table tbody tr {
     border-bottom: 1.0px solid #e1e1e1;
   }
 
+  .footer__address {
+    font-size: 12px;
+  }
+  .product__table tbody tr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product__table tbody td{
+    border: none;
+  }
+  .product__table--name {
+    width: 100%;
+    text-align: center;
+  }
+  .product__table--value {
+    width: 100%;
+    text-align: center;
+  }
+  .product__table .product__payment {
+    padding-right: 15px;
+  }
+
+  .product__table .product__table--value {
+    padding-left: 15px;
+  }
+  .product__table {
+    border-collapse: inherit;
+  }
 }

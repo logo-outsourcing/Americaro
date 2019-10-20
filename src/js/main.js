@@ -3,6 +3,9 @@ $(document).on('click', 'a', function (event) {
     event.preventDefault();
 
 });
+// $('#carousel-example').carousel({
+//     interval: 50000
+// });
 $('#carousel-example').on('slide.bs.carousel', function (e) {
     /*
         CC 2.0 License Iatek LLC 2018 - Attribution required

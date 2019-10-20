@@ -15,8 +15,8 @@
 <header class="header">
     <div class="header__background">
         <div class="container ">
-            <div class="row header__heading">
-                <nav class="p-0 navbar navbar-expand-lg navbar-light bg-ligh col-7 col-lg-6   ">
+            <div class="row header__heading justify-content-between">
+                <nav class="header__navbar navbar navbar-expand-lg navbar-light bg-ligh col-7 col-lg-6   ">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent"
                             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,15 +39,22 @@
                         </ul>
                     </div>
                 </nav>
-                <div class="row">
-                    <a href="#" class="header__authorization"><img src="img/home/authorization.svg" alt="authorization"
-                                                                   class="header__authorization--image"><span
-                            class="header__authorization--entrance">Вход</span>
-                        <span class="header__authorization--registry">/ Регистрация</span>
-                    </a>
-                    <div class="header__social content-row">
-                        <a href="#"><img src="img/home/facebook_logo.svg" alt="facebook" class="header__icon"></a>
-                        <a href="#"><img src="img/home/instagram_logo.svg" alt="instagram" class="header__icon"></a>
+                <div class="col-5 col-lg-4 ">
+                    <div class="row  header__inner align-items-center">
+                        <a href="#" class="header__authorization col-3 col-md-9 col-lg-9"><img src="img/home/authorization.svg"
+                                                                                               alt="authorization"
+                                                                                               class="header__authorization--image"><span
+                                class="header__authorization--entrance">Вход</span>
+                            <span class="header__authorization--registry">/ Регистрация</span>
+                        </a>
+                        <div class=" col-7 col-md-3 col-lg-3">
+                            <div class="header__social  row justify-content-around align-items-center">
+                                <a href="#"><img src="img/home/facebook_logo.svg" alt="facebook"
+                                                 class="header__icon"></a>
+                                <a href="#"><img src="img/home/instagram_logo.svg" alt="instagram" class="header__icon"></a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
