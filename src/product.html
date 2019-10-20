@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -9,8 +9,65 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/css/style.css">
+    <link rel="icon" href="img/home/favicon.png">
 </head>
 <body>
+<header class="header">
+    <div class="header__background">
+        <div class="container ">
+            <div class="row header__heading">
+                <nav class="p-0 navbar navbar-expand-lg navbar-light bg-ligh col-7 col-lg-6   ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header__collapse" id="navbarSupportedContent">
+                        <ul class="header__menu  navbar-nav mr-auto">
+                            <li class="header__item nav-item ">
+                                <a href="#" class="header__link nav-link">О компании</a>
+                            </li>
+                            <li class="header__item nav-item">
+                                <a href="#" class="header__link nav-link">Доставка и оплата</a>
+                            </li>
+                            <li class="header__item nav-item">
+                                <a href="#" class="header__link nav-link">Статьи</a>
+                            </li>
+                            <li class="header__item nav-item">
+                                <a href="#" class="header__link nav-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="row">
+                    <a href="#" class="header__authorization"><img src="img/home/authorization.svg" alt="authorization"
+                                                                   class="header__authorization--image"><span
+                            class="header__authorization--entrance">Вход</span>
+                        <span class="header__authorization--registry">/ Регистрация</span>
+                    </a>
+                    <div class="header__social content-row">
+                        <a href="#"><img src="img/home/facebook_logo.svg" alt="facebook" class="header__icon"></a>
+                        <a href="#"><img src="img/home/instagram_logo.svg" alt="instagram" class="header__icon"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row header__content">
+            <a href="#" class=" col-4 col-lg-3"><img src="img/home/logo.png" alt="logo" class="image"></a>
+            <form class="form-inline my-2 my-lg-0 col-6 col-md-3  col-lg-6 ">
+                <input class="form-control mr-sm-2 header__input col-12 " type="search" placeholder="Поиск"
+                       aria-label="Search">
+                <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            </form>
+            <a href="tel:0441234567" class="header__phone col-2 col-md-5  col-lg-3">
+                <img src="img/home/phone.png" alt="phone" class="header__phone--image">
+                <span class="header__phone--text">(044) 123-45-67</span>
+            </a>
+        </div>
+    </div>
+</header>
 <section class="product">
     <div class="container">
         <div class="row product__heading">
@@ -309,6 +366,370 @@
         </div>
     </div>
 </section>
+<section class="new">
+    <div class="container">
+        <div class="row justify-content-between new__heading">
+            <h2 class="title col-6 col-md-3 col-lg-2">Новинки</h2>
+            <a href="#" class="all-link col-6 col-md-3 col-lg-3">Смотреть все <span
+                    class="all-link__arrow">&#8594;</span></a>
+        </div>
+        <div id="carousel-example" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto new__slider" role="listbox">
+                <div class="carousel-item new__element active">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car1.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+                <div class="carousel-item new__element">
+                    <img src="img/home/Cars/car2.jpg" alt="Lexus" class="image new__image">
+                    <span class="new__name">Lexus GX 460 2015</span>
+                    <div class="row ">
+                        <ul class="new__list col-4">
+                            <li>Пробег:</li>
+                            <li>Урон:</li>
+                            <li>VIN:</li>
+                        </ul>
+                        <ul class="new__values col-8">
+                            <li>63 000 км</li>
+                            <li>Повреждения спереди</li>
+                            <li>2C3CDXBВАЫ826818</li>
+                        </ul>
+                    </div>
+                    <p class=" new__rate new__rate--current">Текущая ставка:<span
+                            class="new__rate--price">4500 ₴</span>
+                    </p>
+                    <button class="btn new__rate new__rate--recommended">Рекомендуемая ставка:<span
+                            class="new__rate--price">8000 ₴</span></button>
+                    <a href="#" class="new__more">Подробнее &#62;</a>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev new__prev" href="#carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon new__prev--icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next new__next" href="#carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon new__next--icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+<section class="video">
+    <div class="container-fluid">
+        <div class="video__image row align-items-center justify-content-center">
+            <a href="#" class=" video__play">
+                <img src="img/home/play.png" alt="play">
+            </a>
+        </div>
+        <div class="video__modal video__modal--hide">
+            <div class="video__element">
+                <button class="video__close">x</button>
+                <div class="video__item">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="seo">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h2 class="title seo__title">SEO</h2>
+        </div>
+        <div class="row">
+            <p class="seo__text col-12">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                тексты.
+                Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький
+                ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая
+                страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+        </div>
+        <div class="row justify-content-center">
+            <a href="#" class="seo__link">Читать далее</a>
+        </div>
+    </div>
+</section>
+<section class="advantages">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="advantages__element row">
+                <img src="img/home/delivery-car.svg" alt="Delivery" class="advantages__image">
+                <h3 class="advantages__name">Беcплатная доставка</h3>
+            </div>
+            <div class="advantages__element row">
+                <img src="img/home/choice-car.svg" alt="Choice Car" class="advantages__image">
+                <h3 class="advantages__name">Большой выбор авто</h3>
+            </div>
+            <div class="advantages__element row">
+                <img src="img/home/guarantee.svg" alt="Guarantee" class="advantages__image">
+                <h3 class="advantages__name">Гарантия качества</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center footer__logo">
+            <a href="#"><img src="img/home/logo.png" alt="Logo"></a>
+        </div>
+
+        <div class="row align-items-end justify-content-between footer__inner">
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Комплекты</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Новые товары</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Инструкция</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Статьи</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">О компании</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"> Видео</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Доставка и оплата</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link"> Бонусная программа</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-8 col-lg-5">
+                <span class="footer__name">Отследить свое авто</span>
+                <span class="footer__text">Введите свой номер заказа и отследите где ваш автомобиль</span>
+                <div class="input-group">
+                    <input type="number" class="form-control footer__input" aria-describedby="button-addon4">
+                    <div id="button-addon4">
+                        <button class="btn  button footer__button" type="button">Отследить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 footer__guarantee">
+                <span class="footer__text">Гарантия безопасности</span>
+                <div class="row footer__card">
+                    <a href="#" class="footer__visa"><img src="img/home/visa.jpg" alt="visa"></a>
+                    <a href="#"><img src="img/home/mastercard.jpg" alt="mastercard"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__line col-12"></div>
+        <div class="row justify-content-between col-12">
+            <a href="#" class="footer__address">© www.americaro.com.ua, 2017-2019</a>
+            <div class="row">
+                <a href="#"><img src="img/home/facebook_logo.svg" alt="Facebook" class="footer__facebook svg"></a>
+                <a href="#"><img src="img/home/instagram_logo.svg" alt="Instagram" class="footer__instagram svg"></a>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
