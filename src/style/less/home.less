@@ -870,9 +870,7 @@
       fill: #939393;
 
     }
-    &:hover path {
-      fill: #000000;
-    }
+
     &--bus path {
       stroke: #939393;
       fill: none;
@@ -884,6 +882,8 @@
     &--color path{
       stroke: none;
     }
+
+
   }
   &__dropdown {
     background-color: #f8f4db;
@@ -918,7 +918,13 @@
 .brands__active .brands__icon path {
   fill: #000000;
 }
+.brands__item:hover .brands__item--link .brands__icon path {
 
+  fill: #000000;
+}
+.brands__item:hover .brands__item--link .brands__icon--filter  {
+  filter: brightness(0.1)
+}
 .brands__item:hover .brands__item--link .brands__icon--bus path {
 
   stroke: #000000;

@@ -1,5 +1,8 @@
 .product {
   padding: 35px 0;
+  &__box {
+    padding: 0;
+  }
   &__item {
     width: 716px;
     max-height: 407px;
@@ -78,7 +81,7 @@
     }
     &--name {
       font-family: 'Ubuntu', sans-serif;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 20px;
       font-weight: 400;
       color: #7e7e7e;
@@ -86,7 +89,7 @@
     }
     &--value {
       font-family: 'Ubuntu', sans-serif;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 20px;
       font-weight: 400;
       color: #000000;
@@ -154,6 +157,9 @@
     background-color: #f8f4db;
     padding: 20px;
   }
+  &__dropdown {
+    display: inline-block;
+  }
 }
 
 .product__table .product__calculator--input {
@@ -169,12 +175,36 @@
 
 }
 
+.product__element tbody td {
+  border-color: transparent;
+}
+
 .product__border tbody tr {
+  position: relative;
+
+}
+
+.product__border tbody tr:after {
+  content: "";
+  position: absolute;
+  left: 2%;
+  width: 95%;
+  border-bottom: 1.0px solid #e1e1e1;
+}
+.product__border--small tbody tr {
   border-bottom: 1.0px solid #e1e1e1;
 }
 
 .product__table td, .product__table th {
-  padding: 9px 20px;
+  padding: 9px 15px;
+}
+
+.product__table .product__payment {
+  padding-right: 0;
+}
+
+.product__table .product__table--value {
+  padding-left: 0;
 }
 
 .product__slider #thumbcarousel .carousel-inner .product__flex {
