@@ -18,12 +18,7 @@
     width: 11%;
     cursor: pointer;
   }
-  //&__prev {
-  //  left: 15px;
-  //}
-  //&__next {
-  //  right: 15px;
-  //}
+
   &__inner {
     margin-bottom: 10px;
   }
@@ -31,6 +26,13 @@
     margin-bottom: 20px;
 
   }
+  &__link{
+    &:hover{
+      text-decoration: none;
+      color: #ffc001;
+    }
+  }
+
   &__navigation {
     margin-right: 20px;
     &--link {
@@ -39,6 +41,7 @@
       line-height: 1.2;
       font-weight: 300;
       color: #4e4e4e;
+
     }
     &--marker {
       position: relative;
