@@ -1,5 +1,5 @@
 .catalog {
-  &__auction{
+  &__auction {
     padding-bottom: 45px;
   }
   border-top: 4px solid #f4f4f4;
@@ -32,8 +32,8 @@
     &:after {
       content: "";
       position: absolute;
-      width: 92%;
-      left: 4%;
+      width: 94%;
+      left: 2%;
       bottom: -10px;
       border-bottom: 1px solid #ebebeb;
     }
@@ -41,22 +41,17 @@
   &__text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    line-height: 1.2;
+    line-height: 20px;
     font-weight: 300;
     color: #000000;
     margin: 0;
-  }
-  &__more {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 33px;
-    line-height: 28px;
-    font-weight: 300;
-    color: #f0b500;
-    &:hover{
-      text-decoration: none;
-      color: #000000;
+    &--more {
+      font-size: 33px;
+      color: #f0b500;
+      line-height: 5px;
     }
   }
+
   &__icon {
     width: 21px;
     height: 20px;
@@ -85,7 +80,7 @@
     border: none;
     margin: 0 1px;
     padding: 0 7px;
-    &:hover{
+    &:hover {
       text-decoration: none;
       color: #ffc001;
     }
@@ -119,8 +114,11 @@
       }
     }
   }
-  &__page {
-    margin-right: 23%;
+  &__page--prev {
+    margin: 0 auto 0 0;
+  }
+  &__page--next{
+    margin: 0 0 0 auto;
   }
   &__model {
     font-family: 'Ubuntu', sans-serif;
@@ -142,26 +140,52 @@
       text-align: center;
       margin-bottom: 10px;
     }
-    &--link{
+    &--link {
       font-family: 'Ubuntu', sans-serif;
       font-size: 14px;
       line-height: 30px;
       font-weight: 400;
       color: #4e4e4e;
-      &:hover{
+      &:hover {
         text-decoration: none;
         color: #ffc001;
       }
     }
   }
-  &__hide{
+  &__hide {
     position: relative;
-    &:after{
+    &:after {
       content: "\003E";
       position: absolute;
       top: -3px;
       right: -5px;
       transform: rotate(-90deg)
     }
+  }
+  &__image {
+    width: 100%;
+    position: relative;
+  }
+  &__top {
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    top: 15px;
+    left: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.41);
+    background-color: #ffcf01;
+    padding: 2px 13px;
+    &--bold {
+      font-weight: 700;
+    }
+  }
+  &__circle {
+    font-size: 26px;
+    vertical-align: sub;
+  }
+  &__wrap{
+    margin: 0 auto;
   }
 }
