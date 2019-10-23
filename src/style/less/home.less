@@ -442,22 +442,28 @@
   }
   &__slider {
     padding-bottom: 50px;
-    //margin: 0 -5px;
+    margin: 0 -5px;
   }
 
   &__element {
-    background-color: #ffffff;
-    box-shadow: 0 0 17px 1px rgba(0, 0, 0, 0.09);
-    width: 19%;
-    border-top: 1.0px solid transparent;
-    border-left: 1.0px solid transparent;
-    border-right: 1.0px solid transparent;
+
+    width: 20%;
     text-align: center;
     height: calc(100% - 14%);
-
-    &:hover {
-      border-color: #ffe36a;
+    &--item{
+      position: relative;
+      margin: 15px 5px 0;
+      border-top: 1.0px solid transparent;
+      border-left: 1.0px solid transparent;
+      border-right: 1.0px solid transparent;
+      background-color: #ffffff;
+      box-shadow: 0 0 17px 1px rgba(0, 0, 0, 0.09);
+      &:hover {
+        border-color: #ffe36a;
+      }
     }
+
+
   }
   &__name {
     font-size: 18px;
@@ -482,6 +488,7 @@
     color: #000000;
     list-style-type: none;
     text-align: left;
+    padding-left: 0;
   }
 
   &__rate {
@@ -535,6 +542,7 @@
     border-radius: 0 6px 6px 0;
     top: 122px;
     opacity: 1;
+    left: 1px;
     &--icon {
       background: url("../../img/home/arrow-slider.svg") no-repeat;
       transform: rotate(180deg);
@@ -550,6 +558,7 @@
     background-color: #ffe36a;
     border-radius: 6px 0 0 6px;
     top: 122px;
+    right: 11px;
     &--icon {
       background: url("../../img/home/arrow-slider.svg") no-repeat;
       width: 7px;
@@ -599,7 +608,7 @@
 
 @media (min-width: 577px) {
   #carousel-example .carousel-item {
-    margin:  15px 0 0 0;
+    margin-right:   0;
   }
 
   /* show 2 items */
